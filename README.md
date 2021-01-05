@@ -8,3 +8,5 @@ Means the expresion that describes the control signal U is mathematicaly equival
 So we have a 2nd degree system (like a mass spring one) and we want to design a controller that will
 hopefully controll our system in a much better way that a normal PID controller 
 
+The code is in the Bodyproject matlab file
+
