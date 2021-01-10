@@ -10,7 +10,7 @@ Means the expresion that describes the control signal U is mathematicaly equival
 
 where our controller looks like this
 
-![](1_f9XlMlruW7TMF3EHbPDfYg)
+![](1_f9XlMlruW7TMF3EHbPDfYg.png)
 
 So we have a 2nd degree system (like a mass spring one) and we want to design a complex controller that will
 hopefully controll our system in a much better way that a normal PID controller 
