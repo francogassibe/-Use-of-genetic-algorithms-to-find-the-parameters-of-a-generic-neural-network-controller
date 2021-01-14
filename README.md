@@ -64,7 +64,7 @@ U_NN= PID + NN_Law
 The PID part is not parametriced. It means that is already tunned (there are no Kp, Ki, Kd to be found) but still the NN_Law part has still to found its optimal parameters.
 Doing this the genetic algorithm succeds on finding good weights and biases for our NN_law.
 
-So now to compare the results we are gonna show x(t) for a tunned PID controller in red and x(t) for this U_NN law tunned with genetic algorithm.
+So now to compare the results we are gonna show x(t) for a tunned PID controller in red and x(t) for this U_NN law tunned with genetic algorithm in blue.
 
 ![](Imagen2.png)
 
@@ -73,7 +73,6 @@ So now to compare the results we are gonna show x(t) for a tunned PID controller
 
 
 
-
-The code is in the Bodyproject matlab file and the full explanation is in the pptx presentation
+The code is in the Bodyproject matlab file.
 
  
