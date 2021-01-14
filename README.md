@@ -1,4 +1,4 @@
-# NN_control_law
+# NN_control_law_Introduction
 
 
 In this project we are looking to implement a Neural network type control law.
