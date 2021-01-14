@@ -76,6 +76,9 @@ As we see in the image the NN controller is quite better controler the system so
 The code is in the Bodyproject matlab file.
 
 This project is fully inspired on the Professor Steve Brunton Youtube lectures, particulary in theese 3 videos:
+
 https://www.youtube.com/watch?v=CZE86BPDqCI
+
 https://www.youtube.com/watch?v=S5C_z1nVaSg
+
 https://www.youtube.com/watch?v=3yU2k8R9JeU
