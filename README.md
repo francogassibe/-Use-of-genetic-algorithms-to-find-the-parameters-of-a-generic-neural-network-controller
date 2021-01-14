@@ -22,7 +22,7 @@ Is our job to design a controller that recreate F such that the position of the 
 This output is normally called U instead of F 
 
 
-Our guess is that the more measurements of the system our controller haves and the more complex is the control law, then the better the controller CAN be if tuned properly.This is what we are tryng to verify here in this project.
+**Our guess is that the more measurements of the system our controller haves and the more complex is the control law, then the better the controller CAN be if tuned properly.This is what we are tryng to verify here in this project.**
 
 Like for instance, a PID controller has 3 'measurements' (error, derivative of error and integral of error) and the way the control law is implemented is by making a linear combination of these 3. Resulting in 3 parameters or gains usually named  Kp, Ki and Kd.
 
@@ -69,7 +69,7 @@ So now to compare the results we are gonna show x(t) for a tunned PID controller
 ![](Imagen2.png)
 
 
-
+As we see in the image the NN controller is quite better controler the system so our initial guess was true
 
 
 
