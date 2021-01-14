@@ -53,7 +53,20 @@ And it repeats the process if not done.
 
 At the end what we found are the weights and biases of the NN_Law that minimize the function J. In other words the parameters of a NN_Law that eficiently controls our plant. 
 
+Here we faced a problem: the algorithm is too heavy, there are too many parameters to be found and the genetic algorithm fails to converge into a good solution. 
 
+So to solve this what i did was to 'help' the algorithm by guiving him some starting point. So i redefined the control law as follows.
+
+
+
+U_NN= PID + NN_Law
+
+The PID part is not parametriced. It means that is already tunned (there are no Kp, Ki, Kd to be found) but still the NN_Law part has still to found its optimal parameters.
+Doing this the genetic algorithm succeds on finding good weights and biases for our NN_law.
+
+So now to compare the results we are gonna show x(t) for a tunned PID controller in red and x(t) for this U_NN law tunned with genetic algorithm.
+
+![](Imagen2.png)
 
 
 
