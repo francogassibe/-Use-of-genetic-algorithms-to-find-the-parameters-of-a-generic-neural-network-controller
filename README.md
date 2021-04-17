@@ -55,7 +55,7 @@ At the end what we found are the weights and biases of the NN_Law that minimize 
 
 Here we faced a problem: the algorithm is too heavy, there are too many parameters to be found and the genetic algorithm fails to converge into a good solution. 
 
-So to solve this what i did was to 'help' the algorithm by guiving him some starting point. So i redefined the control law as follows.
+So to solve this what i did was to 'help' the algorithm by giving him some starting point. So i redefined the control law as follows.
 
 
 
