@@ -70,6 +70,7 @@ So now to compare the results we are gonna show x(t) for a tunned PID controller
 
 
 As we see in the image the NN controller is quite better controler the system so our initial guess was true
+Obviously this fancy controller has no notion of stability nor robustness to perturbations yet and has no generalization capabilitys meaning that when we change the step setpoint input function to be something else we actually dont know if its gonna do any good. However theese concepts of generalization and robustness can be achived if we calculate our error J as the error of several simulations with diferent input values and diferent random perturbations. This way if the J function is low we ensure that this means that is low achoss all random input-perturbations resulting in a robust and general controller. 
 
 
 
